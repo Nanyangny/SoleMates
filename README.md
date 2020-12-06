@@ -36,30 +36,28 @@ This is a e-commerce WebApp project for sports shoes.
 **Page display**
 
 - Home page
-<img src="./images/solemate.png">
-<span align="center" >Top part</span>
-<img src="./images/home_page_2.png">
-<span align="center" >Bottom part</span>
+    1. top part 
+    <br>
+    <img src="./images/solemate.png">
+    2. bottom part
+    <br>
+    <img src="./images/home_page_2.png">
+
 <br>
  
-- Shopping page
+- Shopping page: Display product cards (image, name, price information)
  <img src="./images/catalog.png">
-
- <span align="center" >Display product cards (image, name, price information)</span>
  <br>
-- Product page
+- Product page: PHP query database, sizes with available stocks are clickable, user can add the order into cart.
  <img src="./images/product.png">
- <span align="center" >PHP query database, sizes with available stocks are clickable, user can add the order into cart.</span>
       <br>
      
-- Shopping Cart page
+- Shopping Cart page: Select products for checking out
  <img src="./images/Shoppingcart.png">
-<span align="center" >Select products for checking out.</span>
  <br>
                          
-- Confirmation page
+- Confirmation page: Key in shipping and payment details to confirm order.
  <img src="./images/confiramtion.png">
-<span align="center" >Key in shipping and payment details to confirm order.</span>
  <br>
       
 - Login page
@@ -70,8 +68,7 @@ This is a e-commerce WebApp project for sports shoes.
  <img src="./images/registration.png">
 <br>
 
-- Admin page
+- Admin page: Used to manage the query, perform Update, Insert, Delete database query
  <img src="./images/feedback.png">
-<span align="center" >Used to manage the query, perform Update, Insert, Delete database query</span>
 
 
