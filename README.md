@@ -33,6 +33,11 @@ This is a e-commerce WebApp project for sports shoes.
 **Wireframe**
 - Refer to the [Invision Page](https://jimmy928086.invisionapp.com/freehand/WebApp2-Y1OQYDVGl)
 
+**Database Scheme**
+
+<img src="./images/db.png" width="80%">
+
+
 **Page display**
 
 - Home page
