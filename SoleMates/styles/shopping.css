@@ -1,0 +1,125 @@
+.wrapper{
+    display: flex;
+}
+.left_col{
+width: 30%;
+padding-bottom: 5%;
+}
+
+.left_title{
+  padding:1rem;
+  font-size: larger;
+
+}
+
+.right_col{
+width: 70%;
+background-color: white;
+padding-bottom: 5%;
+}
+
+.filter{
+    margin-top:0.5rem ;
+    margin-left: 3rem;
+    padding-bottom: 5%;
+    font-size: large;
+    display: grid;
+    display: block;
+    margin-right: 3rem;
+   
+}
+
+.separateline{
+ border-bottom: solid 1px #ececec ;
+ width: 70%;
+ margin:auto;
+ 
+}
+.control_btn{
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+.num_res{
+  width: max-content;
+  margin-bottom: 3%;
+  padding: 0.5rem;
+  color: white;
+  background: black;
+}
+
+/* select{
+  width: 70%;
+  margin-left: 10%;
+  height: 30px;
+  border-radius: 6px;
+}
+option{
+  font-size: medium;
+} */
+
+.filter_header{
+  margin-bottom: 0.5rem;
+}
+.filter_list div{
+  display: flex;
+  padding-bottom: 0.25rem;
+  font-size: medium;
+  text-indent: 1rem;
+
+}
+input[type='checkbox']{
+  width: auto;
+}
+
+input[type="reset"],input[type="submit"]{
+    margin-left: 10%;
+}
+
+hr{
+  width:70%;
+  margin:auto;
+}
+
+.listing{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    padding-bottom: 10%;
+
+}
+.ind_shoe{
+    border-style: solid;
+    border-color:black;
+    border-radius: 6px;
+    border-width: 3px;
+    position: relative;
+}
+
+.ind_shoe img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.price_tag{
+    padding-top: 1rem;
+}
+
+
+ 
+#sale{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.short_desc{
+  min-height: 38px;
+}

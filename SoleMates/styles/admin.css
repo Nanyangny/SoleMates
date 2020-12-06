@@ -1,0 +1,205 @@
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: absolute;
+  height: inherit;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: grey;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content.*/
+div.content {
+  margin-left: 200px; /* match with sidebar width*/
+  padding: 1px 16px;
+  /* height: 1000px; */
+  padding-bottom: 1rem;
+}
+
+.query_table {
+  padding: 10px;
+}
+
+.query_table tr th,
+td {
+  padding: 10px;
+}
+
+.query_action {
+  color: white;
+  border-radius: 6px;
+  float: left;
+  height: 1.5rem;
+  margin-right: 1rem;
+  padding: 0 1rem 0 1rem;
+}
+
+#delete {
+  background-color: red;
+}
+#edit {
+  background-color: blue;
+}
+
+#insert {
+  background-color: black;
+  margin: 1rem;
+}
+.action_buttons {
+  display: inline-flex;
+}
+
+.remark {
+  color: red;
+  text-align: center;
+}
+
+.report_table {
+  width: 80%;
+  margin: auto;
+  background: papayawhip;
+  text-align: center;
+}
+
+.report_table th td {
+  text-align: center;
+}
+
+.stat {
+  display: inline-flex;
+  margin: 0 25%;
+}
+
+.total_order,
+.total_sale {
+  margin-right: 1rem;
+  background: floralwhite;
+  /* padding:5%; */
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  border-radius: 3px;
+  border: black solid 3px;
+}
+
+.breakdown {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7px;
+  /* margin-left: 2rem; */
+}
+.table_name {
+  margin: 5%;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: tan;
+  width: fit-content;
+  border: black solid;
+}
+.total_order div,
+.total_sale div {
+  margin-top: 15%;
+  font-size: xx-large;
+}
+.total_order span,
+.total_sale span {
+  margin-top: 15%;
+  font-size: xxx-large;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  /* padding: 12px 20px; */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-left: 1rem;
+  height: 30px;
+  margin-top: 0.5rem;
+}
+
+input[type="submit"]:hover {
+  background-color: grey;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type="checkbox"] {
+  margin-top: 1rem;
+  width: 15px;
+  height: 15px;
+}
+
+/* form {
+  margin-top:2.5%;
+  padding:1rem;
+  display: table;
+  margin-bottom:2.5%;
+  border: solid black;
+  border-radius: 5px;
+} */

@@ -1,0 +1,173 @@
+table {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+  /* border-spacing: 0 1rem;  */
+  outline: auto;
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+thead th {
+  padding: 1.5rem 0 1.5rem 0;
+}
+th,
+td {
+  border: 1px solid black;
+}
+
+table img {
+  border-radius: 6px;
+}
+
+tfoot td {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+tfoot td:last-of-type {
+  border-left: hidden;
+}
+
+.customer_info{
+    width: 70%;
+    margin:auto;
+    font-size: large;
+}
+
+
+.address, .credit_card{
+  display: flex;
+  padding-bottom: 5%;
+}
+
+label{
+    text-align: right;
+    width: 200px;
+    margin-right: 30px;
+}
+
+input[type="text"]{
+    height: 1.5rem;
+    /* width: 50%; */
+    font-size: medium;
+    /* font-size: large/ */
+}
+
+.action{
+    display:flow-root;
+    padding-right: 20%;
+    padding-bottom: 3rem;
+}
+
+input[type='submit']{
+  width: 15%;
+}
+
+.action button{
+    width: 13%;
+    margin-right: 1rem;
+}
+
+input[type='button']{
+  margin-left:1rem;
+  
+}
+.customer_info div{
+  display: flex;
+  padding-bottom: 1.5rem;
+}
+
+.validation{
+  padding-right: 10%;
+  padding-bottom: 1.5rem;
+  text-align: right;
+  color: red;
+}
+
+.cust_order{
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 20px;
+}
+
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 20%;
+  border: solid black;
+  border-radius: 0.3rem;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.container {
+  padding: 3%;
+}
+.container button {
+  margin: 0 10%;
+  background-color: black;
+  color: white;
+  height: 10%;
+  padding:5px;
+  width: 25%;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+  from {
+      transform: scale(0)
+  }
+
+  to {
+      transform: scale(1)
+  }
+}

@@ -1,0 +1,289 @@
+body {
+  font-family: Muli, Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(242, 242, 242);
+  height: auto;
+  min-width: 1440px;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  border-bottom: solid grey 1px;
+}
+
+.header-container {
+  margin: auto;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  box-sizing: inherit;
+  padding-bottom: 0.5rem;
+}
+
+.logo {
+  padding-right: 3rem;
+}
+
+/* navbar */
+.navbar {
+  font-weight: bold;
+  font-size: larger;
+  width: fit-content;
+  margin: auto;
+}
+.navbar a {
+  padding: 1rem;
+}
+.navbar a:not(#dropdown):hover {
+  background-color: darkgray;
+}
+
+.searchbar-container {
+  width: 40%;
+  margin: auto;
+  position: relative;
+}
+
+.searchbar-main {
+  background: #d7d7d7;
+  margin: 10px 20px 0px;
+  border-radius: 15px;
+}
+.searchbar-container input {
+  padding: 6px;
+  margin-top: 5px;
+  font-size: 17px;
+  border: none;
+  width: 70%;
+  background: #d7d7d7;
+  vertical-align: text-bottom;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-input-icon {
+  margin-left: 10px;
+  padding: 6px 10px;
+  margin-top: 5px;
+  background: #d7d7d7;
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button a {
+  color: white;
+}
+.topicons {
+  padding: 7px;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+}
+
+.topicons a {
+  padding-left: 3px;
+  vertical-align: middle;
+}
+
+.wrapper {
+  margin: auto;
+  min-height: 600px;
+  height: max-content;
+  width: 80%;
+  background-color: gainsboro;
+}
+
+.feature_product {
+  display: flex;
+}
+
+.main-feature {
+  width: 100%;
+  /* margin: 10px; */
+  /* padding: 3rem; */
+  float: left;
+  position: relative;
+}
+.main-feature img {
+  width: 100%;
+  /* margin:auto; */
+}
+
+.main-feature-text {
+    position:absolute;
+    bottom:5%;
+    right:2%;
+    text-align: right;
+  
+} 
+
+.main-feature-text span {
+  padding-top: 10%;
+  font-size: 18px;
+}
+
+.main-feature-text button {
+  position: absolute;
+  bottom: 10%;
+  padding: 10px;
+  font-size: medium;
+  right: 30%;
+}
+
+.heading-title {
+  margin-left: 1rem;
+}
+.heading-row {
+  width: 100%;
+  display: flow;
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+#category img {
+  height: 200px;
+  width: 20%;
+  padding: 1rem;
+}
+
+#top_seller img{
+    width: 20%;
+    padding: 1rem;
+}
+
+footer {
+  background-color: whitesmoke;
+  display: block;
+  padding-top: 1rem;
+}
+
+.page-link {
+  display: flex;
+}
+.page-link div {
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer-info {
+  padding-top: 1rem;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+button:not(.search-input-icon):not(.plus):not(.minus):not(.query_action):not(.popup),
+input[type="reset"],
+input[type="submit"] {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  float: right;
+  height: 3rem;
+  margin-right: 1rem; 
+  padding: 0 1rem 0 1rem;
+}
+
+button:not(.search-input-icon):hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: grey;
+  cursor: pointer;
+  transition: background-color 0.25s ease-out;
+}
+
+.notfound {
+  text-align: center;
+}
+
+a.notif {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  /* background: url('../images/cart.png'); */
+  /* background-size: contain; */
+}
+.num {
+  position: absolute;
+  color:white;
+  right: 3px;
+  top: 0px;
+  font-size: small;
+}
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  margin-top: 1rem;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: medium;
+  font-weight: 100;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.asterisk{
+  color: red;
+}
+
+.pagination {
+  display: inline-block;
+}
+.pagination_container{
+  text-align: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color:black;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+

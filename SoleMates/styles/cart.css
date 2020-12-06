@@ -1,0 +1,110 @@
+input[type="number"] {
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+  /* border: 2px solid #ddd; */
+  display: inline-flex;
+}
+
+.number-input,
+.number-input * {
+  box-sizing: border-box;
+}
+
+.number-input button {
+  outline: none;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  border-radius: 6px;
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 1rem;
+  height: 2px;
+  background-color: #212121;
+  transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type="number"] {
+  max-width: 3rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  height: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+select {
+  width: 5.5rem;
+  height: 1.5rem;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding-left: 20%;
+}
+
+table {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0 1.5rem;
+}
+
+td {
+  padding: 1rem;
+}
+
+.size_qty {
+  text-align: left;
+  display: inline-block;
+}
+
+
+tbody tr {
+  background-color: white;
+  /* border-radius: ; */
+  outline: auto;
+}
+
+table img {
+  border-radius: 6px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+tfoot button{
+  width: fit-content;
+  font-size: large;
+}
+
+a button{
+  width: 90%;
+}
+
+.validation{
+    padding-right: 10%;
+    padding-bottom: 1.5rem;
+    text-align: right;
+    color: red;
+}
