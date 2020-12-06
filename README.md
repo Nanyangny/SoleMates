@@ -36,9 +36,8 @@ This is a e-commerce WebApp project for sports shoes.
 **Page display**
 
 - Home page
-    1. top part 
+<br>
     <img src="./images/solemate.png" width="80%">
-    2. bottom part
     <img src="./images/home_page_2.png" width="80%">
 
 <br>
