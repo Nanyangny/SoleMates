@@ -37,38 +37,37 @@ This is a e-commerce WebApp project for sports shoes.
 
 - Home page
     1. top part 
-    <br>
-    <img src="./images/solemate.png">
+    <img src="./images/solemate.png" width="80%">
     2. bottom part
-    <br>
-    <img src="./images/home_page_2.png">
+    <img src="./images/home_page_2.png" width="80%">
 
 <br>
  
 - Shopping page: Display product cards (image, name, price information)
- <img src="./images/catalog.png">
+ <img src="./images/catalog.png" width="80%">
  <br>
+
 - Product page: PHP query database, sizes with available stocks are clickable, user can add the order into cart.
- <img src="./images/product.png">
+ <img src="./images/product.png" width="80%">
       <br>
      
 - Shopping Cart page: Select products for checking out
- <img src="./images/Shoppingcart.png">
+ <img src="./images/Shoppingcart.png" width="80%">
  <br>
                          
 - Confirmation page: Key in shipping and payment details to confirm order.
- <img src="./images/confiramtion.png">
+ <img src="./images/confiramtion.png" width="80%">
  <br>
       
 - Login page
- <img src="./images/login.png">
+ <img src="./images/login.png" width="80%">
  <br>
 
 - Registration page
- <img src="./images/registration.png">
+ <img src="./images/registration.png" width="80%">
 <br>
 
 - Admin page: Used to manage the query, perform Update, Insert, Delete database query
- <img src="./images/feedback.png">
+ <img src="./images/feedback.png" width="80%">
 
 
