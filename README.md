@@ -31,56 +31,47 @@ This is a e-commerce WebApp project for sports shoes.
 <img src="./images/sitemap.png">
 
 **Wireframe**
-Refer to the [Invision Page](https://jimmy928086.invisionapp.com/freehand/WebApp2-Y1OQYDVGl)
+- Refer to the [Invision Page](https://jimmy928086.invisionapp.com/freehand/WebApp2-Y1OQYDVGl)
 
 **Page display**
 
 - Home page
-<br>
 <img src="./images/solemate.png">
-<br>Top part
-<img src="./images/home_page_2.png>
- <br> Bottom part
-          <br>
-          
-- Shopping page
+<span align="center" >Top part</span>
+<img src="./images/home_page_2.png">
+<span align="center" >Bottom part</span>
 <br>
- <img src="./images/catalog.png">
- <br>
- Display product cards (image, name, price information)
  
+- Shopping page
+ <img src="./images/catalog.png">
+
+ <span align="center" >Display product cards (image, name, price information)</span>
+ <br>
 - Product page
-<br>
  <img src="./images/product.png">
-      <br> PHP query database, sizes with available stocks are clickable, user can add the order into cart.
+ <span align="center" >PHP query database, sizes with available stocks are clickable, user can add the order into cart.</span>
       <br>
+     
 - Shopping Cart page
-<br>
  <img src="./images/Shoppingcart.png">
- <br> Select products for checking out.
+<span align="center" >Select products for checking out.</span>
  <br>
                          
 - Confirmation page
-
-<br>
- <img src="./images/confirmation.png">
- <br> Key in shipping and payment details to confirm order.
+ <img src="./images/confiramtion.png">
+<span align="center" >Key in shipping and payment details to confirm order.</span>
  <br>
       
 - Login page
-<br>
  <img src="./images/login.png">
  <br>
 
-
 - Registration page
-<br>
  <img src="./images/registration.png">
-
 <br>
+
 - Admin page
-<br>
  <img src="./images/feedback.png">
+<span align="center" >Used to manage the query, perform Update, Insert, Delete database query</span>
 
-<br>Used to manage the query, perform Update, Insert, Delete database query<br>
 
